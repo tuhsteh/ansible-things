@@ -1,0 +1,18 @@
+
+- hosts:  leader
+  become:  true
+  roles:
+    - bashrc
+    - date
+    - mem_count
+    - restart_avahi
+
+
+
+- hosts: members
+  become:  true
+  roles:
+    - bashrc
+    - date
+    - mem_count
+    - restart_avahi
