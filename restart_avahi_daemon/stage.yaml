@@ -2,17 +2,19 @@
 - hosts:  leader
   become:  true
   roles:
-    - bashrc
-    - date
-    - mem_count
+    # - bashrc
+    # - date
+    # - mem_count
     - restart_avahi
+    - restart_cachengo_lookup
 
 
 
 - hosts: members
   become:  true
   roles:
-    - bashrc
-    - date
-    - mem_count
+    # - bashrc
+    # - date
+    # - mem_count
     - restart_avahi
+    - restart_cachengo_lookup
