@@ -6,8 +6,9 @@
     # - date
     # - mem_count
     # - restart_avahi
+    - fix_cachengo_hosts
     # - restart_cachengo_lookup
-    - restart_minio
+    # - restart_minio
 
 
 
@@ -18,5 +19,6 @@
     # - date
     # - mem_count
     # - restart_avahi
+    - fix_cachengo_hosts
     # - restart_cachengo_lookup
-    - restart_minio
+    # - restart_minio

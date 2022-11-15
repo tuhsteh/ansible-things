@@ -1,0 +1,13 @@
+
+- name: stop cachengo-lookup
+  systemd:
+    name: cachengo-lookup
+    state: stopped
+
+- name: copy cachengo hosts
+  copy:
+    src: cachengo-hosts.txt
+    dest: /etc/cachengo-hosts/cachengo.hosts
+    owner: root
+    group: root
+    mode: 0755
