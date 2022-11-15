@@ -5,8 +5,9 @@
     # - bashrc
     # - date
     # - mem_count
-    - restart_avahi
-    - restart_cachengo_lookup
+    # - restart_avahi
+    # - restart_cachengo_lookup
+    - restart_minio
 
 
 
@@ -16,5 +17,6 @@
     # - bashrc
     # - date
     # - mem_count
-    - restart_avahi
-    - restart_cachengo_lookup
+    # - restart_avahi
+    # - restart_cachengo_lookup
+    - restart_minio
